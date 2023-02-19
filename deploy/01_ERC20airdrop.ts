@@ -18,13 +18,13 @@ const deploy: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { deployer } = await getNamedAccounts();
   const { deploy } = deployments;
 
-  const name = "eludius18 Tree";
-  const symbol = "ETR";
+  const name = "";
+  const symbol = "";
 /*   const merkleJsonPath = path.join(__dirname, '..', 'generator', 'output', 'merkle.txt');
   const merkleJsonString = fs.readFileSync(merkleJsonPath, 'utf-8');
   const merkle = JSON.parse(merkleJsonString);
   const merkleRoot = merkle.root; */
-  const merkleRoot = "0x6acf6c1a918b6c2d5c421b3358165eadaa2b3b187cdc095c8d88e11d25a719b6";
+  const merkleRoot = "";
 
   const erc20airdrop = await deploy("ERC20Airdrop", {
     from: deployer,
