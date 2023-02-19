@@ -25,7 +25,7 @@ Merkle tree root:
 0x03c6fced478cbbc9a4fab34ef9f40767739d1ff7: ["",""]
 0x70997970c51812dc3a010c7d01b50e0d17dc79c8: ["",""]
 ```
-# Generator
+# Token ERC20 Airdrop Deployment
 
 ## Run locally
 
